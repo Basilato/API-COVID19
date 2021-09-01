@@ -1,17 +1,4 @@
-/** 1º parte:
 
-Você deverá criar um script (em sua linguagem de preferência) que, ao escolher um país (Brazil, France ou US),
- efetue a comunicação com o serviço descrito acima e retorne o número total de casos confirmados, recuperações
-  e mortes (o serviço também traz os dados de cada estado e você pode ignorá-los).
-2ª parte:
-
-Você também deverá armazenar em um banco de dados (de sua preferência) a data de todos os acessos que seu
- script fez a Covid-19-API, bem como qual o país escolhido para a consulta.
-3ª parte:
-
-Você deverá criar uma interface gráfica que permita ao usuário escolher o país e visualizar os números de
- casos confirmados, recuperações e mortes. Além disso, a interface deve conter um aviso no rodapé, informando
-  a data do último acesso à Covid-19-API.*/
   async function getRegistros() {
     try {
         const response = await fetch('http://localhost:3333/registros')
