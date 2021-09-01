@@ -1,6 +1,15 @@
 # API-COVID19
 Utilização da api do covid para busca de situação dos casos de covid pelo mundo
 
+
+Ultilizado:
+   - HTML
+   - CSS
+   - JavaScript 
+   - NodeJS
+   - SQLite
+
+
 Exemplo: 
 - Método: GET  
 - URL: https://covid-api.mmediagroup.fr/v1/cases?country=Brazil 
